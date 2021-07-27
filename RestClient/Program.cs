@@ -14,7 +14,7 @@ namespace RestClient
         {
 
             //Console.WriteLine("qwerty");
-           // Console.ReadLine();
+           // Console.ReadLine();  
             
          CreditLensRequest workflowRequest = new CreditLensRequest
         {
@@ -66,10 +66,6 @@ namespace RestClient
 
 
         //private string url = "http://172.30.2.124";
-        //private string username = "BampotsisK";
-
-
-
 
      //   CreditLensClient client = new CreditLensClient("http://172.30.2.124");
         //{
