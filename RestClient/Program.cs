@@ -10,11 +10,11 @@ namespace RestClient
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
 
             //Console.WriteLine("qwerty");
-           // Console.ReadLine();  
+           // Console.ReadLine();      
             
          CreditLensRequest workflowRequest = new CreditLensRequest
         {
@@ -29,8 +29,8 @@ namespace RestClient
                 //searchRequest.Add("context", workflowRequest);
                 searchRequest.Add("PayLoad", new CreditLensRequest { { "Longname", "Entity" } });
                 CreditLensResponses searchResponse = client.Search("1", searchRequest);
-                if (searchResponse.Error)
-                {
+                if (searchResponse.Error) 
+                { 
                     Console.WriteLine("error occured");
                 }
 
